@@ -1,0 +1,6 @@
+framework module Pods_TablaGuitarrasDI_TablaGuitarrasDIUITests {
+  umbrella header "Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

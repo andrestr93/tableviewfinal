@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41D358652404482F00C4332D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D358642404482F00C4332D /* AppDelegate.swift */; };
+		41D358672404482F00C4332D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D358662404482F00C4332D /* SceneDelegate.swift */; };
+		41D358692404482F00C4332D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D358682404482F00C4332D /* ViewController.swift */; };
+		41D3586C2404482F00C4332D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D3586A2404482F00C4332D /* Main.storyboard */; };
+		41D3586E2404483600C4332D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D3586D2404483600C4332D /* Assets.xcassets */; };
+		41D358712404483600C4332D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D3586F2404483600C4332D /* LaunchScreen.storyboard */; };
+		41D3587C2404483600C4332D /* TablaGuitarrasDITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3587B2404483600C4332D /* TablaGuitarrasDITests.swift */; };
+		41D358872404483600C4332D /* TablaGuitarrasDIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D358862404483600C4332D /* TablaGuitarrasDIUITests.swift */; };
+		41D358952404488A00C4332D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41D358942404488A00C4332D /* GoogleService-Info.plist */; };
+		41E0AFA32406DA2A00BBFD2C /* Guitarra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0AFA22406DA2A00BBFD2C /* Guitarra.swift */; };
+		51A80C128808222AFDA5E73A /* Pods_TablaGuitarrasDI_TablaGuitarrasDIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B5B4D64F730877E037AC80 /* Pods_TablaGuitarrasDI_TablaGuitarrasDIUITests.framework */; };
+		863C4D0683B8C5228FF31241 /* Pods_TablaGuitarrasDITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC6CFFDEE26B1E5653438D6 /* Pods_TablaGuitarrasDITests.framework */; };
+		C0929E3A38EF78138B9F9C4D /* Pods_TablaGuitarrasDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CAFEF2673235D8ED10573A /* Pods_TablaGuitarrasDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41D358782404483600C4332D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D358592404482F00C4332D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D358602404482F00C4332D;
+			remoteInfo = TablaGuitarrasDI;
+		};
+		41D358832404483600C4332D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D358592404482F00C4332D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D358602404482F00C4332D;
+			remoteInfo = TablaGuitarrasDI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A9873DCABDB4A91190B13D /* Pods-TablaGuitarrasDITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablaGuitarrasDITests.release.xcconfig"; path = "Target Support Files/Pods-TablaGuitarrasDITests/Pods-TablaGuitarrasDITests.release.xcconfig"; sourceTree = "<group>"; };
+		33B5B4D64F730877E037AC80 /* Pods_TablaGuitarrasDI_TablaGuitarrasDIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TablaGuitarrasDI_TablaGuitarrasDIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CAFEF2673235D8ED10573A /* Pods_TablaGuitarrasDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TablaGuitarrasDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D358612404482F00C4332D /* TablaGuitarrasDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablaGuitarrasDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D358642404482F00C4332D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41D358662404482F00C4332D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41D358682404482F00C4332D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41D3586B2404482F00C4332D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41D3586D2404483600C4332D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D358702404483600C4332D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41D358722404483600C4332D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D358772404483600C4332D /* TablaGuitarrasDITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablaGuitarrasDITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D3587B2404483600C4332D /* TablaGuitarrasDITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaGuitarrasDITests.swift; sourceTree = "<group>"; };
+		41D3587D2404483600C4332D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D358822404483600C4332D /* TablaGuitarrasDIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablaGuitarrasDIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D358862404483600C4332D /* TablaGuitarrasDIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaGuitarrasDIUITests.swift; sourceTree = "<group>"; };
+		41D358882404483600C4332D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D358942404488A00C4332D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41E0AFA22406DA2A00BBFD2C /* Guitarra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitarra.swift; sourceTree = "<group>"; };
+		49D31F756D7A62735A13B867 /* Pods-TablaGuitarrasDITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablaGuitarrasDITests.debug.xcconfig"; path = "Target Support Files/Pods-TablaGuitarrasDITests/Pods-TablaGuitarrasDITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC6CFFDEE26B1E5653438D6 /* Pods_TablaGuitarrasDITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TablaGuitarrasDITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9677A751FF8D89BD0663CC21 /* Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.debug.xcconfig"; path = "Target Support Files/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AD9A2296C6F1674A957E297 /* Pods-TablaGuitarrasDI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablaGuitarrasDI.debug.xcconfig"; path = "Target Support Files/Pods-TablaGuitarrasDI/Pods-TablaGuitarrasDI.debug.xcconfig"; sourceTree = "<group>"; };
+		AA4BB7370BAB44A375C9D637 /* Pods-TablaGuitarrasDI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablaGuitarrasDI.release.xcconfig"; path = "Target Support Files/Pods-TablaGuitarrasDI/Pods-TablaGuitarrasDI.release.xcconfig"; sourceTree = "<group>"; };
+		B9315F165B6DB8E4682C43FB /* Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.release.xcconfig"; path = "Target Support Files/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41D3585E2404482F00C4332D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0929E3A38EF78138B9F9C4D /* Pods_TablaGuitarrasDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D358742404483600C4332D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863C4D0683B8C5228FF31241 /* Pods_TablaGuitarrasDITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3587F2404483600C4332D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A80C128808222AFDA5E73A /* Pods_TablaGuitarrasDI_TablaGuitarrasDIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41D358582404482F00C4332D = {
+			isa = PBXGroup;
+			children = (
+				41D358632404482F00C4332D /* TablaGuitarrasDI */,
+				41D3587A2404483600C4332D /* TablaGuitarrasDITests */,
+				41D358852404483600C4332D /* TablaGuitarrasDIUITests */,
+				41D358622404482F00C4332D /* Products */,
+				449EA2CBBC816667A7ACA81F /* Pods */,
+				5287A89E34FFA5E36C045520 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41D358622404482F00C4332D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41D358612404482F00C4332D /* TablaGuitarrasDI.app */,
+				41D358772404483600C4332D /* TablaGuitarrasDITests.xctest */,
+				41D358822404483600C4332D /* TablaGuitarrasDIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D358632404482F00C4332D /* TablaGuitarrasDI */ = {
+			isa = PBXGroup;
+			children = (
+				41D358642404482F00C4332D /* AppDelegate.swift */,
+				41D358942404488A00C4332D /* GoogleService-Info.plist */,
+				41D358662404482F00C4332D /* SceneDelegate.swift */,
+				41D358682404482F00C4332D /* ViewController.swift */,
+				41D3586A2404482F00C4332D /* Main.storyboard */,
+				41D3586D2404483600C4332D /* Assets.xcassets */,
+				41D3586F2404483600C4332D /* LaunchScreen.storyboard */,
+				41D358722404483600C4332D /* Info.plist */,
+				41E0AFA22406DA2A00BBFD2C /* Guitarra.swift */,
+			);
+			path = TablaGuitarrasDI;
+			sourceTree = "<group>";
+		};
+		41D3587A2404483600C4332D /* TablaGuitarrasDITests */ = {
+			isa = PBXGroup;
+			children = (
+				41D3587B2404483600C4332D /* TablaGuitarrasDITests.swift */,
+				41D3587D2404483600C4332D /* Info.plist */,
+			);
+			path = TablaGuitarrasDITests;
+			sourceTree = "<group>";
+		};
+		41D358852404483600C4332D /* TablaGuitarrasDIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41D358862404483600C4332D /* TablaGuitarrasDIUITests.swift */,
+				41D358882404483600C4332D /* Info.plist */,
+			);
+			path = TablaGuitarrasDIUITests;
+			sourceTree = "<group>";
+		};
+		449EA2CBBC816667A7ACA81F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD9A2296C6F1674A957E297 /* Pods-TablaGuitarrasDI.debug.xcconfig */,
+				AA4BB7370BAB44A375C9D637 /* Pods-TablaGuitarrasDI.release.xcconfig */,
+				9677A751FF8D89BD0663CC21 /* Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.debug.xcconfig */,
+				B9315F165B6DB8E4682C43FB /* Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.release.xcconfig */,
+				49D31F756D7A62735A13B867 /* Pods-TablaGuitarrasDITests.debug.xcconfig */,
+				01A9873DCABDB4A91190B13D /* Pods-TablaGuitarrasDITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5287A89E34FFA5E36C045520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34CAFEF2673235D8ED10573A /* Pods_TablaGuitarrasDI.framework */,
+				33B5B4D64F730877E037AC80 /* Pods_TablaGuitarrasDI_TablaGuitarrasDIUITests.framework */,
+				5EC6CFFDEE26B1E5653438D6 /* Pods_TablaGuitarrasDITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41D358602404482F00C4332D /* TablaGuitarrasDI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D3588B2404483600C4332D /* Build configuration list for PBXNativeTarget "TablaGuitarrasDI" */;
+			buildPhases = (
+				7E6FD7295233B0F553CE8C8D /* [CP] Check Pods Manifest.lock */,
+				41D3585D2404482F00C4332D /* Sources */,
+				41D3585E2404482F00C4332D /* Frameworks */,
+				41D3585F2404482F00C4332D /* Resources */,
+				EBD6BEFA50FA8531FA960ED6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TablaGuitarrasDI;
+			productName = TablaGuitarrasDI;
+			productReference = 41D358612404482F00C4332D /* TablaGuitarrasDI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41D358762404483600C4332D /* TablaGuitarrasDITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D3588E2404483600C4332D /* Build configuration list for PBXNativeTarget "TablaGuitarrasDITests" */;
+			buildPhases = (
+				E98D0E6E6CF11D5F3CCBB7FC /* [CP] Check Pods Manifest.lock */,
+				41D358732404483600C4332D /* Sources */,
+				41D358742404483600C4332D /* Frameworks */,
+				41D358752404483600C4332D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D358792404483600C4332D /* PBXTargetDependency */,
+			);
+			name = TablaGuitarrasDITests;
+			productName = TablaGuitarrasDITests;
+			productReference = 41D358772404483600C4332D /* TablaGuitarrasDITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41D358812404483600C4332D /* TablaGuitarrasDIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D358912404483600C4332D /* Build configuration list for PBXNativeTarget "TablaGuitarrasDIUITests" */;
+			buildPhases = (
+				6A2732AAE7C4DC507EB151A7 /* [CP] Check Pods Manifest.lock */,
+				41D3587E2404483600C4332D /* Sources */,
+				41D3587F2404483600C4332D /* Frameworks */,
+				41D358802404483600C4332D /* Resources */,
+				8910DB0859AE0560EC2D9062 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D358842404483600C4332D /* PBXTargetDependency */,
+			);
+			name = TablaGuitarrasDIUITests;
+			productName = TablaGuitarrasDIUITests;
+			productReference = 41D358822404483600C4332D /* TablaGuitarrasDIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41D358592404482F00C4332D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = andres;
+				TargetAttributes = {
+					41D358602404482F00C4332D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					41D358762404483600C4332D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 41D358602404482F00C4332D;
+					};
+					41D358812404483600C4332D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 41D358602404482F00C4332D;
+					};
+				};
+			};
+			buildConfigurationList = 41D3585C2404482F00C4332D /* Build configuration list for PBXProject "TablaGuitarrasDI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41D358582404482F00C4332D;
+			productRefGroup = 41D358622404482F00C4332D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D358602404482F00C4332D /* TablaGuitarrasDI */,
+				41D358762404483600C4332D /* TablaGuitarrasDITests */,
+				41D358812404483600C4332D /* TablaGuitarrasDIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D3585F2404482F00C4332D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D358712404483600C4332D /* LaunchScreen.storyboard in Resources */,
+				41D358952404488A00C4332D /* GoogleService-Info.plist in Resources */,
+				41D3586E2404483600C4332D /* Assets.xcassets in Resources */,
+				41D3586C2404482F00C4332D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D358752404483600C4332D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D358802404483600C4332D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A2732AAE7C4DC507EB151A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6FD7295233B0F553CE8C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TablaGuitarrasDI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8910DB0859AE0560EC2D9062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests/Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98D0E6E6CF11D5F3CCBB7FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TablaGuitarrasDITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD6BEFA50FA8531FA960ED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TablaGuitarrasDI/Pods-TablaGuitarrasDI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TablaGuitarrasDI/Pods-TablaGuitarrasDI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TablaGuitarrasDI/Pods-TablaGuitarrasDI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D3585D2404482F00C4332D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E0AFA32406DA2A00BBFD2C /* Guitarra.swift in Sources */,
+				41D358692404482F00C4332D /* ViewController.swift in Sources */,
+				41D358652404482F00C4332D /* AppDelegate.swift in Sources */,
+				41D358672404482F00C4332D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D358732404483600C4332D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D3587C2404483600C4332D /* TablaGuitarrasDITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3587E2404483600C4332D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D358872404483600C4332D /* TablaGuitarrasDIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41D358792404483600C4332D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D358602404482F00C4332D /* TablaGuitarrasDI */;
+			targetProxy = 41D358782404483600C4332D /* PBXContainerItemProxy */;
+		};
+		41D358842404483600C4332D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D358602404482F00C4332D /* TablaGuitarrasDI */;
+			targetProxy = 41D358832404483600C4332D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41D3586A2404482F00C4332D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D3586B2404482F00C4332D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41D3586F2404483600C4332D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D358702404483600C4332D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41D358892404483600C4332D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41D3588A2404483600C4332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D3588C2404483600C4332D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD9A2296C6F1674A957E297 /* Pods-TablaGuitarrasDI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TablaGuitarrasDI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TablaGuitarrasDI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41D3588D2404483600C4332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4BB7370BAB44A375C9D637 /* Pods-TablaGuitarrasDI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TablaGuitarrasDI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TablaGuitarrasDI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41D3588F2404483600C4332D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D31F756D7A62735A13B867 /* Pods-TablaGuitarrasDITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TablaGuitarrasDITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TablaGuitarrasDITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TablaGuitarrasDI.app/TablaGuitarrasDI";
+			};
+			name = Debug;
+		};
+		41D358902404483600C4332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A9873DCABDB4A91190B13D /* Pods-TablaGuitarrasDITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TablaGuitarrasDITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TablaGuitarrasDITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TablaGuitarrasDI.app/TablaGuitarrasDI";
+			};
+			name = Release;
+		};
+		41D358922404483600C4332D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9677A751FF8D89BD0663CC21 /* Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TablaGuitarrasDIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TablaGuitarrasDIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TablaGuitarrasDI;
+			};
+			name = Debug;
+		};
+		41D358932404483600C4332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9315F165B6DB8E4682C43FB /* Pods-TablaGuitarrasDI-TablaGuitarrasDIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TablaGuitarrasDIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TablaGuitarrasDIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TablaGuitarrasDI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D3585C2404482F00C4332D /* Build configuration list for PBXProject "TablaGuitarrasDI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D358892404483600C4332D /* Debug */,
+				41D3588A2404483600C4332D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D3588B2404483600C4332D /* Build configuration list for PBXNativeTarget "TablaGuitarrasDI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D3588C2404483600C4332D /* Debug */,
+				41D3588D2404483600C4332D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D3588E2404483600C4332D /* Build configuration list for PBXNativeTarget "TablaGuitarrasDITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D3588F2404483600C4332D /* Debug */,
+				41D358902404483600C4332D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D358912404483600C4332D /* Build configuration list for PBXNativeTarget "TablaGuitarrasDIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D358922404483600C4332D /* Debug */,
+				41D358932404483600C4332D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41D358592404482F00C4332D /* Project object */;
+}
